@@ -32,3 +32,13 @@ echo $days_per_language . "\n";
 echo 8**2;
 // end task
 
+// task5: Assignment statement
+$my_num = 7;
+$answer = $my_num;
+$answer += 2;
+$answer *= 2;
+$answer -= 2;
+$answer /= 2;
+$answer -= $my_num;
+echo $answer;
+// end task
