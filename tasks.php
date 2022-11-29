@@ -118,3 +118,13 @@ for($i = 0; $i < sizeof($arr3); $i++)
 	}
 }
 //end task
+
+// task7: Functions
+function printStringReturnNumber(): int
+{
+	echo "some string" . "\n";
+	return 10;
+}
+$my_num = printStringReturnNumber();
+echo $my_num . "\n";
+//end task
